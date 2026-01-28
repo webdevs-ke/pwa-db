@@ -1,0 +1,44 @@
+{
+  "name": "pwa-db",
+  "version": "0.0.1",
+  "description": "A browser-based RDBMS for NPM / Angular using IndexedDB",
+  "author": {
+    "name": "Bernard Katiku Mutua",
+    "email": "katikumut@gmail.com",
+    "url": "https://benkatiku.netlify.app"
+  },
+  "license": "MIT",
+  "keywords": [
+    "angular",
+    "nodejs",
+    "npm",
+    "database",
+    "pwa-db",
+    "sql",
+    "indexeddb"
+  ],
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "peerDependencies": {
+    "@angular/common": "^20.3.0",
+    "@angular/core": "^20.3.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false,
+  "module": "fesm2022/pwa-db.mjs",
+  "typings": "index.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./fesm2022/pwa-db.mjs"
+    }
+  }
+}
