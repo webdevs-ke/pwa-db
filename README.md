@@ -393,4 +393,5 @@ Please follow standard Angular library development practices when submitting pul
 - GitHub Issues: [https://github.com/webdevs-ke/pwa-db/issues](https://github.com/webdevs-ke/pwa-db/issues)
 - Email: katikumut@gmail.com
 - Live Demo: [https://ngrdbms.netlify.app](https://ngrdbms.netlify.app)
-- Author: [https://bekatiku.netlify.app](https://bekatiku.netlify.app)
+- Author: [https://benkatiku.netlify.app](https://benkatiku.netlify.app)
+
