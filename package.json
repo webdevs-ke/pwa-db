@@ -17,11 +17,7 @@
     "sql",
     "indexeddb"
   ],
-  "types": "dist/index.d.ts",
-  "files": [
-    "dist",
-    "README.md"
-  ],
+ 
   "peerDependencies": {
     "@angular/common": "^20.3.0",
     "@angular/core": "^20.3.0"
@@ -32,6 +28,7 @@
   "sideEffects": false,
   "module": "fesm2022/pwa-db.mjs",
   "typings": "index.d.ts",
+  "types": "index.d.ts",
   "exports": {
     "./package.json": {
       "default": "./package.json"
