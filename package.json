@@ -26,9 +26,9 @@
     "tslib": "^2.3.0"
   },
   "sideEffects": false,
-  "module": "fesm2022/pwa-db.mjs",
-  "typings": "index.d.ts",
-  "types": "index.d.ts",
+  "module": "./fesm2022/pwa-db.mjs",
+  "typings": "./index.d.ts",
+  "types": "./index.d.ts",
   "exports": {
     "./package.json": {
       "default": "./package.json"
